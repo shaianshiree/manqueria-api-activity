@@ -18,7 +18,7 @@
 - Answer: Returning `404` tells the user that the item really does not exist. An empty array or generic error can be confusing because the user might think the server is broken or the item is just empty.
 
 **4. Testing:**
-- (Paste a screenshot of a successful GET request here)  
+-  ![image](<assets/Screenshot 2026-01-30 190803.png>)
 =======
 # manqueria-api-activity
 
