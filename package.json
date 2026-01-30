@@ -1,7 +1,7 @@
 {
   "name": "manqueriap-api-activity",
   "version": "1.0.0",
-  "description": "",
+  "description": "**1. Environment Variables:**\r - Why did we put `BASE_URI` in `.env` instead of hardcoding it?  \r - Answer: We put `BASE_URI` in `.env` so that we can easily change the URL if needed, and to keep sensitive information safe. This way, the code stays clean and can work on different environments without changing the code itself.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shaianshiree/manqueria-api-activity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaianshiree/manqueria-api-activity/issues"
+  },
+  "homepage": "https://github.com/shaianshiree/manqueria-api-activity#readme"
 }
