@@ -19,6 +19,6 @@
 
 **4. Testing:**
 -  ![image](<assets/Screenshot 2026-01-30 190803.png>)
-=======
+
 # manqueria-api-activity
 
