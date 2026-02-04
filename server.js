@@ -18,6 +18,7 @@ app.get(BASE_URI, (req, res) => {
 
 const apiRoutes = require('./src/routes/apiRoutes');
 app.use(BASE_URI, apiRoutes);
+app.use(process.env.BASE_URI || '/api/v1', apiRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
