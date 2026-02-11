@@ -22,4 +22,8 @@
 
 # manqueria-api-activity
 
+Why did I choose to Embed the [Review/Tag/Log]? 
+- Embedding is chosen for data that is frequently accessed together with the main document (like a Dish or Transaction). By keeping these items inside a single document, the application can retrieve all necessary information in a single database query, which improves performance and reduces complexity.
 
+Why did I choose to Reference the [Chef/User/Guest]? 
+- Referencing is used for data that is shared across multiple parts of the system or needs to be managed independently. For example, a single Chef might be linked to many dishes. Referencing prevents data duplication, ensuring that if you update the Chef's information once, it is automatically reflected everywhere it is linked.
